@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F7FAFC;
+}
+
+/* Custom animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.bg-card {
+  background-color: #ffffff; /* or your preferred card background */
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.bg-primary {
+  background-color: #007bff; /* or your primary color */
+}
+
+.hover\:bg-primary:hover {
+  background-color: #007bff;
+}
+.rbc-calendar {
+  font-family: "Roboto", sans-serif;
+}
+
+.rbc-event {
+  padding: 5px !important;
+  font-size: 14px !important;
+}
+
+.rbc-event-label {
+  font-weight: bold;
+}
+
+.rbc-today {
+  background-color: #e3f2fd !important; /* Light blue for today */
+}
