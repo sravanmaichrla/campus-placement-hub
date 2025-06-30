@@ -55,6 +55,3 @@ A full-stack web application designed to streamline the campus placement process
 - Exportable placement reports (Excel format).
 
 ---
-
-## 📂 Project Structure
-
